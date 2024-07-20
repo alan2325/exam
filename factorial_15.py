@@ -4,4 +4,4 @@ def fact(a):
         return 1
     else:
         return a*fact(a-1)
-print(f"factorial is : ",fact (a))
+print(f"factorial  is : ",fact (a))
