@@ -1,4 +1,5 @@
 import cal
+
 while True:
     def main():
         a=int(input("Enter a number : "))
