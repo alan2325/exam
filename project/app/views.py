@@ -24,6 +24,8 @@ def single(req,id):
     if 'contact' in req.session:
         data=contact.objects.get(pk=id)
         return render(req,'singlecontact.html',{'data':data})
+    else:
+        return redirect(allcontact)
 
 def allcontact(req):
     data=contact.objects.all()
